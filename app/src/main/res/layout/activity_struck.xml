@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Warnautama"
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/cyberpunktext"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Your bill"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/warnaT2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/warnaT2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:id="@+id/TampilNama"
+        android:textColor="@color/warnaT1"
+        android:fontFamily="@font/trade_winds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/warnaT1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Phone number"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/warnaT2"
+        android:layout_marginLeft="12dp"
+        />
+    <TextView
+        android:id="@+id/TampilnoHP"
+        android:textColor="@color/warnaT1"
+        android:fontFamily="@font/trade_winds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/warnaT1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Address"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/warnaT2"
+        />
+    <TextView
+        android:id="@+id/TampilAlamat"
+        android:textColor="@color/warnaT1"
+        android:fontFamily="@font/trade_winds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/warnaT1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Payment method"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/warnaT2"
+        />
+    <TextView
+        android:id="@+id/TampilPembayaran"
+        android:textColor="@color/warnaT1"
+        android:fontFamily="@font/trade_winds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/warnaT1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="10dp"
+        android:text="Item Terpilih"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/warnaT2"
+        />
+    <TextView
+        android:id="@+id/TampilItem"
+        android:textColor="@color/warnaT1"
+        android:fontFamily="@font/trade_winds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/warnaT1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        android:text="Thank you for buying, the item will be shipped soon"
+        android:fontFamily="@font/trade_winds"
+        android:textColor="@color/warnaT2"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textAlignment="center"
+        android:background="@drawable/background"
+        />
+
+</LinearLayout>

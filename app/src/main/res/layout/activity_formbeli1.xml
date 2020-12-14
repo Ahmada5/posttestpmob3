@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Formbeli1"
+    android:background="@drawable/gradientcolor"
+    
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/cyberpunktext"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input your name"
+        android:fontFamily="@font/trade_winds"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"/>
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="input your phone number"
+        android:fontFamily="@font/trade_winds"
+        android:textStyle="bold"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"/>
+    <EditText
+        android:id="@+id/noHP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:inputType="number"
+        android:text="input your address"
+        android:fontFamily="@font/trade_winds"
+        android:textStyle="bold"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"/>
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"/>
+
+    <RadioGroup
+        android:id="@+id/metodePembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="payment method"
+            android:fontFamily="@font/trade_winds"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/cash"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Cash" />
+
+        <RadioButton
+            android:id="@+id/tranfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-32dp"
+            android:checked="false"
+            android:text="Transfer" />
+
+        <RadioButton
+            android:id="@+id/cicil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Installment" />
+
+        <RadioButton
+            android:id="@+id/creditCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-32dp"
+            android:checked="false"
+            android:text="Debit" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Smartphone type"
+        android:fontFamily="@font/trade_winds"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+
+        <CheckBox
+            android:id="@+id/redretro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red Retro" />
+
+        <CheckBox
+            android:id="@+id/blueneko"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue neko" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_out"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:onClick="hasil"
+        android:text="BUY NOW"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/warnaT2"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background2"/>
+
+
+</LinearLayout>

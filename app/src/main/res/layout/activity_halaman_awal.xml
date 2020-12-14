@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanAwal"
+    android:background="@color/Warnautama">
+
+    <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:srcCompat="@drawable/cyberpunktext" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp">
+
+            <ImageView
+                android:id="@+id/smartphone1"
+                android:onClick="beli1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/foto1"
+                />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Warnakeempat"
+                android:fontFamily="@font/trade_winds"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Go beyond the boundaries with a retro feel, and don't forget, get around cyber-city with your data security guaranteed"
+                />
+
+            <ImageView
+                android:id="@+id/smartphone2"
+                android:onClick="beli1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="80dp"
+                app:srcCompat="@drawable/foto2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/warnaT2"
+                android:fontFamily="@font/trade_winds"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Go beyond the boundaries with a neo feel, and don't forget, get around cyber-city with your data security guaranteed"
+                />
+
+    </LinearLayout>
+</RelativeLayout>
